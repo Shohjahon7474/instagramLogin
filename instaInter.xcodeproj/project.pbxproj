@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84E48AC627EC8C900070AAE2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E48AC527EC8C900070AAE2 /* Post.swift */; };
+		84E48ACA27EC8EC60070AAE2 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E48AC827EC8EC60070AAE2 /* PostTableViewCell.swift */; };
+		84E48ACB27EC8EC60070AAE2 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E48AC927EC8EC60070AAE2 /* PostTableViewCell.xib */; };
 		84EDDF2E27E8B0480051E680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EDDF2D27E8B0480051E680 /* AppDelegate.swift */; };
 		84EDDF3027E8B0480051E680 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EDDF2F27E8B0480051E680 /* SceneDelegate.swift */; };
 		84EDDF3527E8B0480051E680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EDDF3327E8B0480051E680 /* Main.storyboard */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84E48AC527EC8C900070AAE2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		84E48AC827EC8EC60070AAE2 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		84E48AC927EC8EC60070AAE2 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		84EDDF2A27E8B0480051E680 /* instaInter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instaInter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EDDF2D27E8B0480051E680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84EDDF2F27E8B0480051E680 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84E48AC427EC8C710070AAE2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				84E48AC527EC8C900070AAE2 /* Post.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		84E48AC727EC8E540070AAE2 /* PostTableView */ = {
+			isa = PBXGroup;
+			children = (
+				84E48AC827EC8EC60070AAE2 /* PostTableViewCell.swift */,
+				84E48AC927EC8EC60070AAE2 /* PostTableViewCell.xib */,
+			);
+			path = PostTableView;
+			sourceTree = "<group>";
+		};
 		84EDDF2127E8B0480051E680 = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				84EDDF4127E8B0550051E680 /* Apputilis */,
+				84E48AC427EC8C710070AAE2 /* model */,
+				84E48AC727EC8E540070AAE2 /* PostTableView */,
 				84EDDF4227E8B08B0051E680 /* Controllers */,
 				84EDDF2D27E8B0480051E680 /* AppDelegate.swift */,
 				84EDDF2F27E8B0480051E680 /* SceneDelegate.swift */,
@@ -163,6 +188,7 @@
 				84EDDF4A27E8B1130051E680 /* SingUpViewController.xib in Resources */,
 				84EDDF3A27E8B04B0051E680 /* LaunchScreen.storyboard in Resources */,
 				84EDDF3727E8B04B0051E680 /* Assets.xcassets in Resources */,
+				84E48ACB27EC8EC60070AAE2 /* PostTableViewCell.xib in Resources */,
 				84EDDF3527E8B0480051E680 /* Main.storyboard in Resources */,
 				84EFEF9D27E8ED7700BE6449 /* HomeViewController.xib in Resources */,
 			);
@@ -178,8 +204,10 @@
 				84EFEF9C27E8ED7700BE6449 /* HomeViewController.swift in Sources */,
 				84EDDF4527E8B0FD0051E680 /* SingInViewController.swift in Sources */,
 				84EDDF4927E8B1130051E680 /* SingUpViewController.swift in Sources */,
+				84E48ACA27EC8EC60070AAE2 /* PostTableViewCell.swift in Sources */,
 				84EDDF2E27E8B0480051E680 /* AppDelegate.swift in Sources */,
 				84EDDF3027E8B0480051E680 /* SceneDelegate.swift in Sources */,
+				84E48AC627EC8C900070AAE2 /* Post.swift in Sources */,
 				84EFEF9F27E8EDE900BE6449 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
